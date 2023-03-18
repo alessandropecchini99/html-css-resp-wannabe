@@ -128,6 +128,13 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* FIXING STEPS BACKGROUD */
+@media screen and (max-width: 1140px) {
+    .container {
+        width: 100%;
+    }
+}
+
  /* TABLET 768px */
 @media screen and (max-width: 768px) {
     .container {
