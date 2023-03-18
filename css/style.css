@@ -143,6 +143,10 @@ img {
         margin: auto;
         padding: 0;
     }
+    
+    h1 {
+        font-size: 3.3em;
+    }
 
     .row {
         display: block;
@@ -155,7 +159,7 @@ img {
 
     /* lessons */
     .lessons .col {
-        width: 80%;
+        width: 60%;
         margin-inline: auto;
         padding-left: 0;
         padding-right: 0;
@@ -166,6 +170,14 @@ img {
         height: fit-content;
     }
 
+    .lessons h2 {
+        font-size: 2.6em;
+    }
+
+    .lessons h3 {
+        font-size: 2em;
+    }
+
     /* steps */
     .steps {
         margin-top: 3rem;
@@ -173,7 +185,7 @@ img {
     }
 
     .steps .col {
-        width: 80%;
+        width: 60%;
         margin-inline: auto;
         padding-left: 0;
         padding-right: 0;
@@ -185,7 +197,21 @@ img {
         margin-bottom: 0;
     }
 
-    .why-us .col-left, .col-right {
+    .why-us h2 {
+        font-size: 2.5em;
+        max-width: 90%;
+        margin-inline: auto;
+    }
+
+    .why-us h3 {
+        font-size: 1.8em;
+    }
+
+    .why-us p {
+        font-size: 1.1em;
+    }
+
+    .why-us .col-left {
         width: 80%;
         margin-inline: auto;
         padding-left: 0;
@@ -193,8 +219,16 @@ img {
         padding-bottom: 3rem;
     }
 
+    .why-us .col-right {
+        width: 75%;
+        margin-inline: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 3rem;
+    }
+
     .why-us .container {
-        background-color: black;
+        background-color: rgb(31, 31, 31);
     }
 
     .why-us h2 {
