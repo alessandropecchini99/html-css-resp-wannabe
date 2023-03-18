@@ -138,4 +138,67 @@ img {
 
 /* MOBILE 480px */
 @media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+
+    /* lessons */
+    .lessons .col {
+        width: 80%;
+        margin-inline: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 3rem;
+    }
+
+    .lessons .col img {
+        height: fit-content;
+    }
+
+    /* steps */
+    .steps {
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+
+    .steps .col {
+        width: 80%;
+        margin-inline: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 3rem;
+    }
+
+    /* why us */
+    .why-us {
+        margin-bottom: 0;
+    }
+
+    .why-us .col-left, .col-right {
+        width: 80%;
+        margin-inline: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 3rem;
+    }
+
+    .why-us .container {
+        background-color: black;
+    }
+
+    .why-us h2 {
+        padding-top: 3rem;
+    }
+
 }
